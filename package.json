@@ -1,0 +1,26 @@
+{
+  "name": "barcodezera",
+  "description": "simple CLI to get numbers of your barcode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:leonardorpr/barcodezera.git",
+  "author": "Leonardo Pinheiro <leonardo.pinheiro.dev@gmail.com>",
+  "license": "UNLICENSED",
+  "type": "module",
+  "keywords": ["cli", "barcode", "nodejs"],
+  "bugs": {
+    "url": "https://github.com/leonardorpr/barcodezera/issues"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0",
+    "figlet": "^1.5.0",
+    "tesseract.js": "^2.1.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}

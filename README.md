@@ -1,7 +1,7 @@
 <div align="center">
   <img align="center" src="./assets/bar-code.svg" width="200px">
 </div>
-<p align="center">
+<p align="center" style="margin-top: -30px">
   <h1 align="center">Barcodezera</h1>
 </p>
 

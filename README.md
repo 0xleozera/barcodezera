@@ -2,7 +2,7 @@
   <img align="center" src="./assets/bar-code.svg" width="200px">
 </div>
 <p align="center">
-  <h1 align="center">Barcodezera</h1>
+  <h1 style="color: #C678DD; margin-top: -10px" align="center">Barcodezera</h1>
 </p>
 
 Barcodezera is a simple CLI to get numbers of your barcode.

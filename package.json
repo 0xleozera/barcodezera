@@ -5,9 +5,13 @@
   "main": "index.js",
   "repository": "git@github.com:leonardorpr/barcodezera.git",
   "author": "Leonardo Pinheiro <leonardo.pinheiro.dev@gmail.com>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "type": "module",
-  "keywords": ["cli", "barcode", "nodejs"],
+  "keywords": [
+    "cli",
+    "barcode",
+    "nodejs"
+  ],
   "bugs": {
     "url": "https://github.com/leonardorpr/barcodezera/issues"
   },
@@ -18,6 +22,7 @@
     "chalk": "^4.1.0",
     "commander": "^7.2.0",
     "figlet": "^1.5.0",
+    "progress": "^2.0.3",
     "tesseract.js": "^2.1.4"
   },
   "devDependencies": {

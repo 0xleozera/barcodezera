@@ -1,7 +1,5 @@
-import commander from 'commander'
+#!/usr/bin/env node
 
-import { CURRENT_VERSION, showBanner } from './src/utils/index.js'
+import { start } from './src/app/index.js'
 
-commander.version(CURRENT_VERSION)
-commander.parse(process.argv)
-showBanner()
+start()

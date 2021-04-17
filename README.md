@@ -25,6 +25,15 @@ barcodezera ./your-file-here.png
 npx barcodezera ./your-file-here.png
 ```
 
+## Disclaimer
+
+This first version use images with clear numbers, like this:
+
+<div align="center">
+  <img src="./assets/barcode1.png" width=250 align="left">
+  <img src="./assets/barcode2.png" width=250 align="right">
+</div>
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

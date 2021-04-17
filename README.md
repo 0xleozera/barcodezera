@@ -1,10 +1,3 @@
-<style>
-  h1 {
-    color: #C678DD;
-    margin-top: -10px;
-  }
-<style>
-
 <div align="center">
   <img align="center" src="./assets/bar-code.svg" width="200px">
 </div>

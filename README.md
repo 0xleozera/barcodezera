@@ -30,8 +30,9 @@ npx barcodezera ./your-file-here.png
 This first version use images with clear numbers, like this:
 
 <div align="center">
-  <img src="./assets/barcode1.png" width=250 align="left">
-  <img src="./assets/barcode2.png" width=250 align="right">
+  <img src="./assets/barcode1.png" width=250 styles="margin: 10px">
+  <img src="./assets/barcode2.png" width=400>
+  <br>
 </div>
 
 ## Contributing

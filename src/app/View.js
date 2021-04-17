@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import { Command } from 'commander'
 
 import { CURRENT_VERSION, showBanner, message } from '../utils/index.js'

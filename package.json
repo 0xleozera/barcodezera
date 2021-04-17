@@ -2,11 +2,14 @@
   "name": "barcodezera",
   "description": "simple CLI to get numbers of your barcode",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "cli.js",
   "repository": "git@github.com:leonardorpr/barcodezera.git",
   "author": "Leonardo Pinheiro <leonardo.pinheiro.dev@gmail.com>",
   "license": "MIT",
   "type": "module",
+  "bin": {
+    "barcodezera": "./cli.js"
+  },
   "keywords": [
     "cli",
     "barcode",

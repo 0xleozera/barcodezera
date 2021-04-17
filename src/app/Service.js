@@ -12,9 +12,9 @@ class Service {
     return readProgress
   }
 
-  async readBarCodeImage(barCodeFile) {
-    const barCodeParsed = await Tesseract.recognize(
-      barCodeFile,
+  async readBarcodeImage(barcodeFile) {
+    const barcodeParsed = await Tesseract.recognize(
+      barcodeFile,
       Service.RECONIZE_LANGUAGE,
       {
         logger: (reading) => {
@@ -26,9 +26,9 @@ class Service {
       },
     )
 
-    const barCodeDigits = getOnlyNumbers(barCodeParsed.data.text)
+    const barcodeDigits = getOnlyNumbers(barcodeParsed.data.text)
 
-    return barCodeDigits
+    return barcodeDigits
   }
 }
 

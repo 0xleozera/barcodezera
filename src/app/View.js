@@ -13,12 +13,12 @@ class View {
     this.cli.version(CURRENT_VERSION)
     showBanner()
 
-    this.showBarCode(action)
+    this.handleBarcode(action)
 
     this.cli.parse(process.argv)
   }
 
-  showBarCode(action) {
+  handleBarcode(action) {
     this.cli
       .command('read <file>', { isDefault: true })
       .description('Read image and get number sequence')

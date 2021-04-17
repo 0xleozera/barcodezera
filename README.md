@@ -5,7 +5,7 @@
   <h1 align="center">Barcodezera</h1>
 </p>
 
-Barcodezera is a simple CLI to get numbers of your barcode.
+Barcodezera is a simple CLI to get numbers of your barcode or bank slip.
 
 ## Installation
 

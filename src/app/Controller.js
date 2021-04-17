@@ -15,7 +15,7 @@ class Controller {
   }
 
   async readAction(file) {
-    const data = await this.service.readBarCodeImage(file)
+    const data = await this.service.readBarcodeImage(file)
     return data
   }
 }

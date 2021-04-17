@@ -13,31 +13,31 @@ class View {
     this.cli.version(CURRENT_VERSION)
     showBanner()
 
-    this.handleBarcode(action)
+    this.barcodeCommand(action)
 
     this.cli.parse(process.argv)
   }
 
-  handleBarcode(action) {
+  barcodeCommand(action) {
     this.cli
       .command('read <file>', { isDefault: true })
       .description('Read image and get number sequence')
-      .action(async (file) => {
-        const data = await action(file)
+      .action((file) => this.#handleBarcodeAction(file, action))
+  }
 
-        if (!data) {
-          console.log(
-            `\n${message.error(
-              '😔 Something is wrong, use another image that is sharper!',
-            )}`,
-          )
-          return
-        }
+  async #handleBarcodeAction(file, action) {
+    const data = await action(file)
 
-        console.log(
-          `🥳 Yeeah! Get your barcode here: ${message.information(data)}`,
-        )
-      })
+    if (!data) {
+      console.log(
+        `\n${message.error(
+          '😔 Something is wrong, use another image that is sharper!',
+        )}`,
+      )
+      return
+    }
+
+    console.log(`🥳 Yeeah! Get your barcode here: ${message.information(data)}`)
   }
 }
 

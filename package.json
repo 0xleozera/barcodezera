@@ -22,13 +22,13 @@
     "node": ">=14"
   },
   "dependencies": {
-    "chalk": "^4.1.0",
-    "commander": "^7.2.0",
-    "figlet": "^1.5.0",
+    "chalk": "^5.2.0",
+    "commander": "^10.0.0",
+    "figlet": "^1.5.2",
     "progress": "^2.0.3",
-    "tesseract.js": "^2.1.4"
+    "tesseract.js": "^4.0.2"
   },
   "devDependencies": {
-    "prettier": "^2.2.1"
+    "prettier": "^2.8.4"
   }
 }
